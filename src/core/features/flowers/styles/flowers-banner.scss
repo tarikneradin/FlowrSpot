@@ -1,0 +1,34 @@
+@import "../../../res/styles/variables.scss";
+
+.flowers-banner {
+  width: 1220px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: $mobile-resolution-max-width) {
+    width: 100%;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: $app-white-color;
+    margin-bottom: 10px;
+  }
+  &__desc {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: $app-white-color;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 40px;
+  }
+}
