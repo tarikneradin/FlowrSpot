@@ -1,0 +1,18 @@
+.info-modal {
+  .modal-title {
+    width: 100%;
+    text-align: center;
+  }
+  &__message {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  &__cta {
+    margin: 0px auto;
+  }
+  .modal-footer {
+    border: none;
+    justify-content: center;
+  }
+}

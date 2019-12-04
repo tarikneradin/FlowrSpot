@@ -1,0 +1,37 @@
+@import "../../../res/styles/variables.scss";
+
+.fs-input {
+  background: $input-background;
+  border: $input-border;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: center;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  &.fullWidth {
+    width: 100%;
+  }
+  label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    color: $app-grey-color;
+    margin-bottom: 5px;
+  }
+  input {
+    font-style: normal;
+    font-weight: normal;
+    background: $input-background;
+    font-size: 14px;
+    line-height: 13px;
+    color: $app-black-color;
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
+}

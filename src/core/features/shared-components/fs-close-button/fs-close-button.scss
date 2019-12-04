@@ -1,0 +1,11 @@
+.close-button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
