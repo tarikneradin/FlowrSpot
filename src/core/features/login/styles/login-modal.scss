@@ -1,0 +1,28 @@
+@import "../../../res/styles/variables.scss";
+
+.login-modal {
+  .modal-dialog {
+    width: 440px;
+    @media (max-width: $mobile-resolution-max-width) {
+      width: 100%;
+    }
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    border: none;
+  }
+
+  .field-row {
+    width: 100%;
+    display: flex;
+  }
+
+  &__error {
+    color: $form-error-color;
+    margin-top: 10px;
+    text-align: center;
+    line-height: normal;
+  }
+}
