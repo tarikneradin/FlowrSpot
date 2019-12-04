@@ -1,0 +1,11 @@
+@import "../../../core/res/styles/variables.scss";
+
+.flowers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  height: 100%;
+  @media (max-width: $mobile-resolution-max-width) {
+    padding: 5px;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../../core/res/styles/variables.scss";
+
+.new-account-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #ecbcb3 0%, #eaa79e 100%);
+  box-shadow: 0px 15px 20px rgba(234, 168, 159, 0.2);
+  border-radius: 50px;
+  min-height: 40px;
+  min-width: 140px;
+  cursor: pointer;
+  border: none;
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: $app-white-color;
+  }
+  &:focus {
+    outline: none;
+  }
+}

@@ -2,22 +2,22 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 
-import { handleLoginSuccess } from "../core/features/login/actions/login-actions";
-import { handleMediaQueryResult } from "../core/features/media-query/actions/media-query-actions";
+import { handleLoginSuccess } from "../features/login/actions/login-actions";
+import { handleMediaQueryResult } from "../features/media-query/actions/media-query-actions";
 
 import SessionHelper from "./helpers/session-helper";
 import RouteWithSubRoutes from "./route-with-subroutes";
-import Header from "../core/features/header/components/header";
-import Flowers from "../core/features/flowers/components/flowers";
-import SignupModal from "./features/signup/components/signup-modal";
-import InfoModal from "./features/shared-components/fs-info-modal/info-modal";
-import ErrorBoundary from "./features/shared-components/error-boundary/error-boundary";
-import LoginModal from "./features/login/components/login-modal";
-import UserProfileModal from "./features/user-profile/components/user-profile-modal";
-import LoginForm from "./features/login/components/login-form";
-import SignupForm from "./features/signup/components/signup-form";
-import UserProfileInfo from "./features/user-profile/components/user-profile-info";
-import MobileNavigation from "./features/mobile-navigation/components/mobile-navigation";
+import Header from "../features/header/components/header";
+import Flowers from "../features/flowers/components/flowers";
+import SignupModal from "../features/signup/components/signup-modal";
+import InfoModal from "../features/shared-components/fs-info-modal/info-modal";
+import ErrorBoundary from "../features/shared-components/error-boundary/error-boundary";
+import LoginModal from "../features/login/components/login-modal";
+import UserProfileModal from "../features/user-profile/components/user-profile-modal";
+import LoginForm from "../features/login/components/login-form";
+import SignupForm from "../features/signup/components/signup-form";
+import UserProfileInfo from "../features/user-profile/components/user-profile-info";
+import MobileNavigation from "../features/mobile-navigation/components/mobile-navigation";
 import MediaQueryHelper from "./helpers/media-query-helper";
 
 import "bootstrap/dist/css/bootstrap.min.css";

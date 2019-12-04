@@ -1,0 +1,52 @@
+@import "../../../core/res/styles/variables.scss";
+
+.user-info {
+  padding: 50px;
+
+  &__user-info {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    &__item {
+      label {
+        font-size: 11px;
+        line-height: 10px;
+        color: $app-grey-color;
+      }
+      p {
+        font-size: 18px;
+        line-height: 13px;
+        color: $app-black-color;
+      }
+    }
+  }
+  &__avatar-container {
+    display: flex;
+    .profile-photo {
+      margin-right: 10px;
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 13px;
+        color: $app-grey-color;
+        margin-bottom: 0px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 25px;
+        color: $app-black-color;
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .logout-button {
+    margin: 0px auto 0px;
+  }
+}
