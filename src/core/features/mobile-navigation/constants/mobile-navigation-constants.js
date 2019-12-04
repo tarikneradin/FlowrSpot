@@ -1,0 +1,3 @@
+export const MOBILE_NAVIGATION_ACTIONS = {
+  TOGGLE_MOBILE_NAVIGATION: "MOBILE_NAVIGATION::toggleMobileNavigation"
+};

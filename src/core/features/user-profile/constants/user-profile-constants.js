@@ -1,0 +1,5 @@
+export const USER_PROFILE_ACTIONS = {
+  HANDLE_SHOW_USER_PROFILE_MODAL: "USER_PROFILE::handleShowUserProfileModal",
+  HANDLE_GET_USER_INFO_IN_PROGRESS: "USER_PROFILE::handleGetUserInfoInProgress",
+  HANDLE_GET_USER_INFO_SUCCESS: "USER_PROFILE::handleGetUserInfoSuccess"
+};
