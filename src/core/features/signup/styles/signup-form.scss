@@ -1,0 +1,40 @@
+@import "../../../res/styles/variables.scss";
+
+.signup-form {
+  padding: 30px;
+  height: 100%;
+  @media (max-width: $mobile-resolution-max-width) {
+    padding-top: 30%;
+  }
+
+  .form-title {
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: $app-black-color;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .create-account-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .field-row {
+    width: 100%;
+    display: flex;
+  }
+  .multi-col {
+    justify-content: space-between;
+    .fs-input {
+      width: 49%;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+}
